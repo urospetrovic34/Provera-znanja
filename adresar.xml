@@ -1,0 +1,14 @@
+<Osoba>
+	<PunoIme>
+		<Ime></Ime>
+		<SrednjeIme></SrednjeIme>
+		<Prezime></Prezime>
+	</PunoIme>
+	<DatumRodjenja>
+		<Dan></Dan>
+		<Mesec></Mesec>
+		<Godina></Godina>
+	</DatumRodjenja>
+	<Adresa trajanje=""></Adresa>
+	<Email dostpunost=""></Email>
+</Osoba>
