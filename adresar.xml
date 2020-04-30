@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Lista SYSTEM "provera.dtd">
-<Lista>
+<Lista 
+	xmlns="http://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com zad2.xsd">
 <Osoba>
 	<PunoIme>
-		<Ime></Ime>
-		<SrednjeIme></SrednjeIme>
-		<Prezime></Prezime>
+		<Ime>Osoba</Ime>
+		<SrednjeIme>Osobson</SrednjeIme>
+		<Prezime>Osobijevic</Prezime>
 	</PunoIme>
 	<DatumRodjenja>
-		<Dan></Dan>
-		<Mesec></Mesec>
-		<Godina></Godina>
+		<Dan>2</Dan>
+		<Mesec>3</Mesec>
+		<Godina>1981</Godina>
 	</DatumRodjenja>
-	<Adresa trajanje="stalna"></Adresa>
-	<Email dostpunost="sluzbeni"></Email>
+	<Adresa trajanje="stalna">Ulica 14,Nekigrad,Portugal</Adresa>
+	<Email dostupnost="sluzbeni">adresnideo@gmail.com</Email>
 </Osoba>
 <Osoba>
 	<PunoIme>
-		<Ime></Ime>
+		<Ime>Osob</Ime>
 		<SrednjeIme></SrednjeIme>
-		<Prezime></Prezime>
+		<Prezime>Osober</Prezime>
 	</PunoIme>
 	<DatumRodjenja>
-		<Dan></Dan>
-		<Mesec></Mesec>
-		<Godina></Godina>
+		<Dan>5</Dan>
+		<Mesec>6</Mesec>
+		<Godina>1990</Godina>
 	</DatumRodjenja>
-	<Adresa></Adresa>
-	<Email dostpunost="privatni"></Email>
+	<Adresa>NegdeTamo 15,Moskva,Rusija</Adresa>
+	<Email dostupnost="privatni">mejladresa34@yahoo.com</Email>
 </Osoba>
 </Lista>
