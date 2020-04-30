@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Lista SYSTEM "provera.dtd">
+<Lista>
 <Osoba>
 	<PunoIme>
 		<Ime></Ime>
@@ -9,6 +12,21 @@
 		<Mesec></Mesec>
 		<Godina></Godina>
 	</DatumRodjenja>
-	<Adresa trajanje=""></Adresa>
-	<Email dostpunost=""></Email>
+	<Adresa trajanje="stalna"></Adresa>
+	<Email dostpunost="sluzbeni"></Email>
 </Osoba>
+<Osoba>
+	<PunoIme>
+		<Ime></Ime>
+		<SrednjeIme></SrednjeIme>
+		<Prezime></Prezime>
+	</PunoIme>
+	<DatumRodjenja>
+		<Dan></Dan>
+		<Mesec></Mesec>
+		<Godina></Godina>
+	</DatumRodjenja>
+	<Adresa></Adresa>
+	<Email dostpunost="privatni"></Email>
+</Osoba>
+</Lista>
