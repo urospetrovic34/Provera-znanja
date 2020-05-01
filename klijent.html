@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Dodavanje osobe</h1>
+    <form action="server.js/sveKnjige" method="GET">
+        <button type="submit">Posalji</button>
+    </form>
+    <form action='server.js/dodajOsobu' method="POST">
+        Id:<input type="number" name="id">
+        Ime:<input type="text" name="ime">
+        Prezime:<input type="text" name="prezime">
+        Adresa:<input type="text" name="adresa">
+        <button type="submit">Posalji</button>
+    </form>
+    <br>
+    <h1>Brisanje osobe</h1>
+    <form action='server.js/obrisiOsobu' method="POST">
+        Id:<input type="number" name="id">
+        <button type="submit">Posalji</button>
+    </form>
+    <br>
+    <h1>Postavljanje adrese</h1>
+    <form action='server.js/postaviAdresu' method="POST">
+        Id:<input type="number" name="id">
+        Adresa:<input type="text" name="adresa">
+        <button type="submit">Posalji</button>
+    </form>
+</body>
+</html>

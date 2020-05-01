@@ -12,3 +12,8 @@
 <!ATTLIST Adresa trajanje (privremena|stalna) "privremena">
 <!ELEMENT Email (#PCDATA)>
 <!ATTLIST Email dostpunost (privatni|sluzbeni) #REQUIRED>
+
+
+
+
+                					
